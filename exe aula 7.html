@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Criando Tabelas pt 3</title>
+    <meta charset="utf-8">
+
+    <style>
+        table{
+            border-collapse: collapse;
+            border: 3px solid rgb(100,130,40);
+            width: 75%;
+    
+        }
+        tbody{
+            font-size: 90%;
+            font-style: italic;
+            letter-spacing: 75%;
+        }
+
+        tfoot{
+            font-weight: bold;
+            font-size: 75%;
+        }
+        
+        thead{
+            color: darkblue;
+        }
+        td{
+            text-align: center;
+            border: 1px solid rgb(100,130,40);
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <table>
+        <caption>Agenda de endereços</caption>
+        <thead>   <th rowspan="4">Amigos</th>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>cidade</th>
+            <th colspan="2">endereço</th>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="5">Tarefa de TLP do Raúl</td>
+            </tr>
+        </tfoot>
+
+     <tbody>
+        <tr>
+        <td>Francisco</td>
+        <td>Santos</td>
+        <td>São Paulo</td>
+        <td>Rua das Figueiras,254</td>
+        <td>Jardim Primaveira</td>
+    </tr>
+    <tr>
+        <td>Ana</td>
+        <td>Paula</td>
+        <td>Recife</td>
+        <td>Rua das Ciclames,44</td>
+        <td>Jardim Outono</td>
+    </tr>
+    <tr>
+        <td>Renata </td>
+        <td>Francisco</td>
+        <td>Santos</td>
+        <td>Rua das Heras,123</td>
+        <td>Jardim Verão</td>
+    </tr>
+</tbody>
+        </table>
+    
+   
+</body>
+
+
+
+</html>
